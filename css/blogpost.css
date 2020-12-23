@@ -1,0 +1,9 @@
+.blogpost {
+    display: inline-block;
+    background-color: burlywood;
+    border: 1px red solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 150px;
+    margin: 25px;
+}

@@ -1,3 +1,6 @@
+@import "./sidebar.css";
+@import "./blogpost.css";
+
 .body {
     background-color: #444;
     color: #fffff8;
@@ -32,6 +35,7 @@
 }
 
 .main {
+    display: float;
     grid-area: main;
 }
 .footer {
