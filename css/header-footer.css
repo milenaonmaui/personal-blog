@@ -7,28 +7,30 @@ header{
     font-family: 'Lato', sans-serif;
 }
 
-nav.menu {
-    width: 90%;
+h1 {
+    padding-left: 50px;
+    font-size: 12vw;
+    font-weight: 500;
+    font-style: italic;
 }
+
 nav.menu ul {
     display: flex;
+    list-style: none;
 }
 
 nav li {
     padding-left: 20px;
-    font-size: 1.5em;
+    font-size: 6vw;
 }
 
-h1 {
-    padding-left: 50px;
-    font-size: 3em;
-    font-weight: 600;
-    font-style: italic;
-    
-}
-
-ul {
-    list-style: none;
+@media (min-width: 600px) {
+    nav li {
+        font-size: 1.5em;
+    }
+    h1 {
+        font-size: 3em;
+    }
 }
 
 footer {

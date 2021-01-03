@@ -4,7 +4,6 @@
 
 
 .card {
-    flex: 0 1 22%;
     box-sizing: border-box;
     margin: 1%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -12,11 +11,28 @@
     border-radius: 0.5rem;
 }
 
+@media (min-width: 300px) and (max-width: 600px){
+    .card {
+        flex: 0 1 48%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px){
+    .card {
+        flex: 0 1 31%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .card {
+        flex: 0 1 22%;
+    }
+}
+
 .card:hover {
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
 }
   
-
 .summary {
     width: 90%;
     margin: 0 auto;

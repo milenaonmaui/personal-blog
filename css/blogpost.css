@@ -1,73 +1,13 @@
 @import "./header-footer.css";
 @import "./style.css";
 @import "./sidebar.css";
-/*
-.body { 
-  font-size: 1rem;
-  font-family: sans-serif;
-}
 
-.container {   
-  display:grid;
-  width: 90%;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-  "header header header header"
-  "main main main sidebar"
-  "footer footer footer footer";
-} 
-header {
-  grid-area: header;
-  box-shadow: 0px 1px 8px rgba(0,0,0,0.4);
-}
-
-header h1 {
-  color: #023047;
-  margin: 12px;
-}
-
-header a {
-  text-decoration: none;
-}
-
-nav.blog-nav {
-  width: 90%;
-  
-}
-
-nav {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: left;
-  font-size: 1.5em;
-}
-#e74c3c;
-  display: inline;
-  padding: 0px 20px;
- 
-}
-
-ul {
-  list-style: none;
-}
-*/
 .blog-main {
   grid-area: main;
   width: 100%;
-  margin: 20px 40px;
-}
-/*
-aside {
-  grid-area: sidebar;
-  box-shadow: 0px 1px 8px rgba(0,0,0,0.4);
-  padding-left: 10px;
+  margin: 0 auto;
 }
 
-footer {
-  grid-area: footer;
-}
-*/
 img {
   display: block;
   width: 80%;
@@ -81,18 +21,38 @@ img {
   display: block;
   margin: 0 auto;
 }
+
 .blog-title {
-  margin-left: 20px;
+  text-align: center;
 }
+
 .blog-title h1 {
-  margin: 0;
+  font-size: 2.5em;
+  font-family: 'Lato';
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.blog-title h4, h5 {
-  margin-left: 50px;
-  line-height: 0.5em;
-}
+.blog-title h4 h5 {
+  font-size: 1em;
+  font-family: 'Roboto';
+  color:gray;
+} 
 
+.blog-title h5 {
+  font-size: 1em;
+  color:gray;
+} 
+
+.blog-title h4 {
+  font-size: 1.5em;
+} 
+
+@media (min-width: 800px) {
+  .blog-title h1 {
+      font-size: 3em;
+  }
+}
 
 .blog-image figcaption {
   text-align: center;
@@ -105,8 +65,14 @@ img {
   width: 80%;
   margin-left: 10%;
 }
+
 .blog-main a {
   color: blue;
+}
+
+.about {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 aside img {
@@ -115,15 +81,25 @@ aside img {
   margin: 0 auto;
   border-radius: 50%;
 }
+
 aside p {
   color: white;
   margin-left: 20px;
 }
 
+.follow {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.follow li {
+  list-style: none;
+}
+
 blockquote {
   border-left: 10px solid #ccc;
   width: 50%;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 0.5em 10px;
 }
 
