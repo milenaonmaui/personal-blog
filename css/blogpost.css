@@ -70,10 +70,6 @@ img {
   color: blue;
 }
 
-.about {
-  max-width: 90%;
-  margin: 0 auto;
-}
 
 aside img {
   display: block;
@@ -84,12 +80,7 @@ aside img {
 
 aside p {
   color: white;
-  margin-left: 20px;
-}
-
-.follow {
   max-width: 90%;
-  margin: 0 auto;
 }
 
 .follow li {

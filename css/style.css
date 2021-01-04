@@ -35,11 +35,6 @@ a {
     text-decoration: none;
 }
 
-.main {
-    display: flex;
-    flex-wrap: wrap;
-    grid-area: main;
-    margin: 0 auto;
-}
+
 
 
